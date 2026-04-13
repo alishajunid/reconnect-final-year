@@ -1,0 +1,189 @@
+body {
+ 
+    background-color: #FBF1FF !important;
+      
+    }
+  
+    .input-group-text {
+      color: white !important;
+      background-color:  #311c1c;
+    }
+  
+    
+  
+  
+    .form-control {
+      color: #311c1c;
+      background-color: white !important; 
+    }
+  
+    
+  
+    .form-select {
+      color: #311c1c;
+      background-color: white !important; 
+    }
+  
+    .row {
+      --bs-gutter-x:0 rem;
+    }
+  
+    
+  
+    
+  
+    .navbar {
+      background-color: #FBF1FF;
+      color: black;
+    }
+  
+    .div-bg-color {
+      background-color: #311c1c;
+     
+  }
+  
+  .border {
+    border-color: #311c1c!important;
+   
+  }
+  
+  .border-bottom {
+    border-color: #311c1c!important;
+   
+  }
+  
+  
+  
+  
+  .custom-text-color {
+    color:#e6d696!important;
+  }
+  
+  
+    .border-outline {
+      background-color: #311c1c;
+    }
+  
+  
+    .custom-border-top {
+      border-top-color: #311c1c;
+  }
+  
+  .custom-border-end {
+      border-right-color: #311c1c;
+  }
+    
+  
+    .header {
+      background-color: #c2a887;
+      color: black;
+    }
+  
+   
+  
+    .container1 {
+      background-color: #e6d696;
+  }
+  
+  
+  .container2 {
+    background-color:#a1cd92;
+  }
+  
+  .container3 {
+    background-color:#311c1c;
+  }
+  
+   
+  .custom-footer-bg {
+    background-color:  #311c1c;
+    
+  }
+  
+  
+    
+    
+    .a {
+      background-color: #c2a887;
+    }
+  
+    .btn {
+      background-color: #7B2CBF !important;
+    }
+  
+   
+   @font-face {
+    font-family: 'Gloomie Saturday';
+    src: local('Gloomie Saturday'), url('gloomie-saturday-webfont') format('woff');
+   }
+  
+  
+  
+    h2 {
+      font-family: 'Gloomie Saturday Regular';
+      src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
+      color: #332002;
+    }
+  
+    h1 {
+      font-family: 'Gloomie Saturday Regular';
+      src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
+      color: #332002;
+    }
+  
+    h3 {
+        font-family: 'Berlin Sans FB';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
+       color: #332002;
+    }
+  
+    h4 {
+      font-family: 'Berlin Sans FB';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
+  
+     color: #332002;
+  }
+  
+  h5 {
+    font-family: 'Berlin Sans FB';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
+  
+   
+  }
+  
+  li {
+    font-family: 'Berlin Sans FB';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+    font-size: large;
+  
+   color: #332002;
+  }
+  
+  p {
+    font-family: 'Berlin Sans FB';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
+  
+   color:black;
+   font-size: large;
+  }
+  
+  
+  
+  footer {
+    background-color: #332002;
+    color:white!important;
+  }
+  
+  .data-bs-theme {
+    color:#332002;
+  }
