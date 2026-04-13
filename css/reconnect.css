@@ -1,6 +1,7 @@
 body {
  
     background-color: #FBF1FF !important;
+    font-family: 'Inter', sans-serif;
       
     }
   
@@ -100,7 +101,20 @@ body {
     
   }
   
+  .v-progress {
+    width: 20px;
+    height: 120px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
   
+  .v-bar {
+    width: 100%;
+    border-radius: 10px;
+  }
     
     
     .a {
@@ -119,63 +133,19 @@ body {
   
   
   
-    h2 {
-      font-family: 'Gloomie Saturday Regular';
+    h2, h3, h4, h5, h6, li, p {
+      font-family: 'Inter', sans-serif;
       src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
       color: #332002;
     }
   
     h1 {
-      font-family: 'Gloomie Saturday Regular';
-      src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
+      font-family: 'como', serif;
+      font-weight:900;
       color: #332002;
     }
   
-    h3 {
-        font-family: 'Berlin Sans FB';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
-       color: #332002;
-    }
-  
-    h4 {
-      font-family: 'Berlin Sans FB';
-      font-style: normal;
-      font-weight: normal;
-      src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
-  
-     color: #332002;
-  }
-  
-  h5 {
-    font-family: 'Berlin Sans FB';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Berlin Sans FB'), url('BRLNSR.woff') format('woff');
-  
-   
-  }
-  
-  li {
-    font-family: 'Berlin Sans FB';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
-    font-size: large;
-  
-   color: #332002;
-  }
-  
-  p {
-    font-family: 'Berlin Sans FB';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Berlin Sans FB'), url('berlin-sans-fb-webfont') format('woff');
-  
-   color:black;
-   font-size: large;
-  }
+    
   
   
   
