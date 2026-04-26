@@ -34,7 +34,7 @@ body {
     
   
     .navbar {
-      background-color: #FBF1FF;
+      background-color: #ffffff;
       color: black;
     }
   
@@ -135,18 +135,71 @@ body {
   
     h2, h3, h4, h5, h6, li, p {
       font-family: 'Inter', sans-serif;
-      src: local('Gloomie Saturday Regular'), url('GloomieSaturday-MVMjP.woff') format('woff');
-      color: #332002;
+      color: #000000;
     }
   
     h1 {
       font-family: 'como', serif;
-      font-weight:900;
-      color: #332002;
+      font-weight:600  !important;
+      color: #000000;
     }
-  
+
+    img {
     
-  
+       border-radius: 40px !important;
+       
+    }
+
+    .img {
+       border-radius: 40px !important;
+       
+    }
+
+
+    .custom-card {
+      border-radius: 20px !important;
+      border-color:#ffffff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card {
+      border: none !important;
+      border-color:#ffffff;
+    }
+
+
+     .v-progress {
+     width: 22px;
+     height: 130px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     border-radius: 12px;
+     overflow: hidden;
+    }
+
+    .bar {
+      width: 100%
+    }
+
+    .purple {
+      background: linear-gradient(to top, #6f2dbd, #9d4edd);
+    }
+
+    .pink{
+      background-color: #e056b5;
+    }
+    
+    .blue{
+      background-color: #3a5bff;
+    }
+
+    .dot{
+
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
   
   
   footer {
