@@ -1,213 +1,173 @@
 body {
- 
-    background-color: #FBF1FF !important;
-    font-family: 'Inter', sans-serif;
-      
-    }
-  
-    .input-group-text {
-      color: white !important;
-      background-color:  #311c1c;
-    }
-  
-    
-  
-  
-    .form-control {
-      color: #311c1c;
-      background-color: white !important; 
-    }
-  
-    
-  
-    .form-select {
-      color: #311c1c;
-      background-color: white !important; 
-    }
-  
-    .row {
-      --bs-gutter-x:0 rem;
-    }
-  
-    
-  
-    
-  
-    .navbar {
-      background-color: #ffffff;
-      color: black;
-    }
-  
-    .div-bg-color {
-      background-color: #311c1c;
-     
-  }
-  
-  .border {
-    border-color: #311c1c!important;
-   
-  }
-  
-  .border-bottom {
-    border-color: #311c1c!important;
-   
-  }
-  
-  
-  
-  
-  .custom-text-color {
-    color:#e6d696!important;
-  }
-  
-  
-    .border-outline {
-      background-color: #311c1c;
-    }
-  
-  
-    .custom-border-top {
-      border-top-color: #311c1c;
-  }
-  
-  .custom-border-end {
-      border-right-color: #311c1c;
-  }
-    
-  
-    .header {
-      background-color: #c2a887;
-      color: black;
-    }
-  
-   
-  
-    .container1 {
-      background-color: #e6d696;
-  }
-  
-  
-  .container2 {
-    background-color:#a1cd92;
-  }
-  
-  .container3 {
-    background-color:#311c1c;
-  }
-  
-   
-  .custom-footer-bg {
-    background-color:  #311c1c;
-    
-  }
-  
-  .v-progress {
-    width: 20px;
-    height: 120px;
-    background-color: #e9ecef;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
-  }
-  
-  .v-bar {
-    width: 100%;
-    border-radius: 10px;
-  }
-    
-    
-    .a {
-      background-color: #c2a887;
-    }
-  
-    .btn {
-      background-color: #7B2CBF !important;
-      font-weight: 600  !important;
-    }
-  
-   
-   @font-face {
-    font-family: 'Gloomie Saturday';
-    src: local('Gloomie Saturday'), url('gloomie-saturday-webfont') format('woff');
-   }
-  
-  
-  
-    h2, h3, h4, h5, h6, li, p {
-      font-family: 'Inter', sans-serif;
-      color: #000000;
-    }
-  
-    h1 {
-      font-family: 'como', serif;
-      font-weight:600  !important;
-      color: #000000;
-    }
 
-    img {
-    
-       border-radius: 40px !important;
-       
-    }
+  background-color: #FBF1FF !important; /* body background colour*/
+  font-family: 'Inter', sans-serif; /* body font*/
 
-    .img {
-       border-radius: 40px !important;
-       
-    }
+}
 
 
-    .custom-card {
-      border-radius: 20px !important;
-      border-color:#ffffff;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
 
-    .card {
-      border: none !important;
-      border-color:#ffffff;
-    }
+.offcanvas-header {
+
+  color: white !important; /* header text colour*/
+  background-color: #7B2CBF; /* header background colour*/
+}
+
+.btn-close {
+  background-color: #ffffff !important; /* button colour*/
+}
 
 
-     .v-progress {
-     width: 22px;
-     height: 130px;
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-end;
-     border-radius: 12px;
-     overflow: hidden;
-    }
+.notif-title {
+  font-weight: 600 !important; /* notif font weightage*/
 
-    .bar {
-      width: 100%
-    }
+}
 
-    .purple {
-      background: linear-gradient(to top, #6f2dbd, #9d4edd);
-    }
 
-    .pink{
-      background-color: #e056b5;
-    }
-    
-    .blue{
-      background-color: #3a5bff;
-    }
 
-    .dot{
 
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-    }
-  
-  
-  footer {
-    background-color: #332002;
-    color:white!important;
-  }
-  
-  .data-bs-theme {
-    color:#332002;
-  }
+.container-fluid1 {
+
+  color: #FBF1FF !important; /* container text colour*/
+
+}
+
+.notif-badge { /* notification badge styling*/
+  position: absolute;
+  top: -10px; /* position*/
+  right: -10px;
+  background-color: #2640E9; /* colour*/
+  color: white; /* text colour*/
+  font-size: 12px; /* font size */
+  font-weight: 600; /* font weight*/
+  width: 28px; /* more specifics for alignment and size*/
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title-message {
+
+  font-weight: 600 !important; /* making font bold*/
+}
+
+
+.row {
+  --bs-gutter-x: 0 rem; /* gutter set*/
+}
+
+
+.navbar {
+  background-color: #ffffff; /* nav background colour*/
+  color: black; /* nav text colour*/
+}
+
+
+.text-purple {
+
+  color: #7B2CBF !important; /*  graph caption colour*/
+}
+
+.v-progress { /* specifics for progress bars*/
+  width: 20px; /* sizing*/
+  height: 120px;
+  background-color: #e9ecef; /* colour*/
+  border-radius: 10px; /* rounded corner*/
+  display: flex; /* spacing and alignment*/
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.bar {
+  width: 100%; /* bar sizing*/
+}
+
+
+.btn {
+  background-color: #7B2CBF !important; /* button background colour*/
+  font-weight: 600 !important; /* font weight bold*/
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  font-family: 'Inter', sans-serif; /*font family for main text*/
+  color: #000000; /* font colour*/
+}
+
+h1 {
+  font-family: 'como', serif; /* title font*/
+  font-weight: 600 !important; /* bold*/
+  color: #000000;/* colour*/
+}
+
+img {
+
+  border-radius: 20px !important; /* image corners*/
+
+}
+
+.card-text-1 {
+  font-weight: 600 !important; /* bold*/
+}
+
+.xp-badge {
+  font-weight: 600; /* XP text bold*/
+  color: #000000; /* XP text colour*/
+}
+
+.navbar-toggler {
+  border: none !important; /* remove navbar button padding*/
+  box-shadow: none !important; /* remove navbar button shadow*/
+  outline: none; /* remove navbar button outline*/
+}
+
+
+
+.custom-card {
+  border-radius: 20px !important; /* card corners*/
+  border-color: #ffffff; /* card colour*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* card shadow*/
+}
+
+.card {
+  border: none !important; /* normal card corners*/
+  border-color: #ffffff; /* normal card colour*/
+}
+
+
+.purple {
+  background: linear-gradient(to top, #6f2dbd, #9d4edd);  /* bar purple gradient*/
+}
+
+.pink {
+  background-color: #e056b5; /* bar pink*/
+}
+
+.blue {
+  background-color: #3a5bff; /* bar blue */
+}
+
+.dot { /* graph bottom dots*/
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+footer {
+  color: white !important;
+}
+
+.data-bs-theme {
+  color: #332002;
+}
